@@ -21,6 +21,7 @@ curl -X POST http://localhost:8000/api/link -d "original_url=https://www.example
 Пример:
 ```bash
 curl -I http://localhost:8000/C6eS9l
+````
 Ответ:
 HTTP/1.1 301 Moved Permanently
 Location: https://www.example.com
