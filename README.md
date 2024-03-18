@@ -32,19 +32,25 @@ Laravel >= 8.0
 git clone https://github.com/CherniavskyD/shortlinks.git
 
 2.Перейдите в директорию проекта:
+
 cd shortlinks
 
 3.Установите зависимости:
+
 composer install
 
 4.Настройте переменные окружения:
+
 cp .env.example .env
 
 5.Сгенерируйте ключ приложения:
+
 php artisan key:generate
 
 6.Выполните миграции:
+
 php artisan migrate
 
 7.Запустите сервер разработки:
+
 php artisan serve
