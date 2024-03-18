@@ -9,6 +9,7 @@
 Отправьте POST-запрос на `/api/link` с оригинальным URL в качестве данных. Вы получите ответ в формате JSON с сокращенным URL.
 
 Пример:
+
 curl -X POST http://localhost:8000/api/link -d "original_url=https://www.example.com"
 Ответ:
 {
@@ -18,6 +19,7 @@ curl -X POST http://localhost:8000/api/link -d "original_url=https://www.example
 Для перенаправления по оригинальному URL, соответствующему сокращенной ссылке, просто перейдите по /C6eS9l (замените C6eS9l на вашу сокращенную ссылку).
 
 Пример:
+
 curl -I http://localhost:8000/C6eS9l
 Ответ:
 HTTP/1.1 301 Moved Permanently
