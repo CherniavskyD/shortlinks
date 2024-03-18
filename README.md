@@ -32,8 +32,8 @@ Location: https://www.example.com
 ````
 
 ## Требования
-PHP >= 7.4
-Laravel >= 8.0
+## PHP >= 7.4
+## Laravel >= 8.0
 
 #### Установка
 
@@ -68,5 +68,6 @@ php artisan migrate
 ````
 
 # 7.Запустите сервер разработки:
-
+```bash
 php artisan serve
+````
