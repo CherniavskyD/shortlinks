@@ -19,7 +19,7 @@ curl -X POST http://localhost:8000/api/link -d "original_url=https://www.example
 Для перенаправления по оригинальному URL, соответствующему сокращенной ссылке, просто перейдите по /C6eS9l (замените C6eS9l на вашу сокращенную ссылку).
 
 Пример:
-
+```bash
 curl -I http://localhost:8000/C6eS9l
 Ответ:
 HTTP/1.1 301 Moved Permanently
